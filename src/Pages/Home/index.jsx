@@ -1,13 +1,11 @@
-import { Outlet } from 'react-router-dom';
-import NavBar from './NavBar';
-import Footer from "./Footer"; 
+import Hero from './Hero';
+import { ReputationSection } from './Reputation';
 
 export const Home = () => {
   return (
     <div>
-        <NavBar />
-        <Outlet />
-        <Footer />
+        <Hero />,
+        <ReputationSection/>,
     </div>
   )
 }

@@ -1,17 +1,16 @@
 import React from 'react'
 import {Home} from "../Pages/Home/index"
-import Hero from '../Pages/Home/Hero/index'
-// import { Footer } from "../Pages/Home/Footer/index"
+import { HomePage } from '../Pages/HomePage/index'
 
 export const ROUTE = [
         {
             path: "/",
-            element: <Home />,
+            element: <HomePage />,
             children: [
                 {
                     path: "",
-                    element: <Hero />
-                }
+                    element: <Home />,
+                },
             ]
         }
 ]
