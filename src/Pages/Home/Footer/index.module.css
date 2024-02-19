@@ -1,0 +1,94 @@
+@import url('https://fonts.cdnfonts.com/css/work-sans');
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerCenter {
+    display: flex;
+    justify-content: space-between;
+    width: 84%;
+    margin-top: 50px;
+}
+
+.footerFirstInner {
+    /*  */
+    > p {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+}
+
+span {
+    color: rgb(41, 71, 169);
+    /* font-family: 'HelveticaforTarget', sans-serif; */
+    /* font-weight: 15px; */
+}
+
+.footerSecondInner {
+    > p {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+        color: rgb(41, 71, 169);
+    }
+}
+
+form {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+} 
+
+input {
+    height: 35px;
+    width: 270px;
+    border: 1px solid;
+    border-color: rgb(223, 222, 222);
+}
+
+.companyDetails {
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+.theBox {
+    width: 40px;
+}
+
+.companyName {
+    width: 100px;
+}
+
+.socialIconsDiv {
+    display: flex;
+    gap: 20px;
+}
+
+.socialIcons {
+    font-size: 40px;
+    color: rgb(65, 64, 64);
+}
+
+.footerLastDiv {
+    background-color: rgb(41, 71, 169);
+    padding: 5px 150px;
+    color: white;
+    align-items: flex-start;
+    align-items: stretch;
+    margin: 0px;
+    width: 84%;
+
+    > p {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 18px;
+    }
+}

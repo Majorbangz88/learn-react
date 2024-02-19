@@ -1,0 +1,13 @@
+import React from 'react'
+
+const FilledButton = ({text, padding, background, color, cursor, border, borderRadius, fontFamily, fontSize}) => {
+  return (
+    <div>
+      <button style={{padding: padding, background:background, color: color, cursor:cursor, border:border, borderRadius:borderRadius, fontFamily: fontFamily, fontSize:fontSize}}>
+        {text}
+      </button>
+    </div>
+  )
+}
+
+export default FilledButton

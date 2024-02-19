@@ -1,0 +1,38 @@
+@import url('https://fonts.cdnfonts.com/css/helveticafortarget-bold');
+
+.navBarDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 150px;
+}
+
+.companyLogo {
+    display: flex;
+    gap: 10px;
+}
+
+.theLogo {
+    width: 35px;
+}
+
+.theName {
+    width: 90px;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+
+    > p {
+        font-family: 'HelveticaforTarget-Bold', sans-serif;
+        font-size: 17px;
+        cursor: pointer;
+    }
+}
+
+#contactButton {
+    color: rgb(249, 153, 93);
+}
