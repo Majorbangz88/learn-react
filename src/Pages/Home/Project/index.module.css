@@ -1,0 +1,88 @@
+@import url('https://fonts.cdnfonts.com/css/work-sans');
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 150px;
+
+    > p {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+.categories {
+    /* align-content: start; */
+    > p {
+        font-family: 'Work Sans', sans-serif;
+        font-size: 21px;
+        margin-left: 10px;
+        color: rgb(199, 198, 198);
+    }
+}
+
+#all {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(41, 71, 179);
+    border-left: 5px solid;
+    padding-left: 10px;
+    margin: 0px;
+    margin-top: -7px;
+}
+
+.mainInnerDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 84%;
+    margin-top: 30px;
+}
+
+.projectSamples {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:  30px;
+}
+
+.projectImagesDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 20px; */
+}
+
+.projectImages {
+    width: 450px;
+    height: 250px;
+}
+
+.imageTexts {
+    background-color: rgb(41, 71, 179);
+    padding: 8px 5px;
+    align-self: stretch;
+}
+
+.description {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.subDescription {
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    font-size: 13px;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.sectionBtn {
+    display: flex;
+    justify-content: space-between;
+}

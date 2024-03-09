@@ -1,0 +1,78 @@
+@import url('https://fonts.cdnfonts.com/css/work-sans');
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: 
+    #F6F8F7;
+    padding: 40px 0px;
+
+    > p {
+        font-family: 'Work Sans', sans-serif;
+    }
+}
+
+.boldText {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.smallTexts {
+    font-size: 22px;
+    font-weight: 450;
+    text-align: center;
+    margin: 0px;
+    margin-top: -15px;
+}
+
+.formContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputOneDiv {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.divOneBoxes {
+    background-color: white;
+    height: 45px;
+    width: 320px;
+}
+
+input::placeholder {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+}
+
+.inputTwoDiv {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.selectOption {
+    width: 325px;
+    border: none;
+}
+
+.textArea {
+    border: none;
+    background-color: white;
+}
+
+.required {
+    font-family: 'Work Sans' sans-serif;
+    font-size: 18px;
+    color: rgb(173, 173, 173);
+
+    span {
+        color: red;
+        font-size: 18px;
+        font-family: 'Work Sans' sans-serif;
+    }
+}
